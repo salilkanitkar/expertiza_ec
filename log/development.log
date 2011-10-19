@@ -1,0 +1,1839 @@
+# Logfile created on Sat Oct 15 16:38:52 -0400 2011DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+Migrating to InitializeGoldberg (1)
+Migrating to InitializeCustom (2)
+Migrating to CreateGoldbergUsers (3)
+Migrating to CreateUsers (4)
+Migrating to CreateDeadlineRights (5)
+Migrating to CreateDeadlineTypes (6)
+Migrating to CreateLatePolicies (7)
+Migrating to CreateWikiTypes (8)
+Migrating to CreateQuestionnaireTypes (9)
+Migrating to CreateMappingStrategies (10)
+Migrating to CreateReviewStrategies (11)
+Migrating to CreateCourses (12)
+Migrating to CreateCoursesUsers (13)
+Migrating to CreateQuestionnaires (14)
+Migrating to CreateQuestions (15)
+Migrating to CreateQuestionAdvices (16)
+Migrating to CreateAssignments (17)
+Migrating to CreateTeams (18)
+Migrating to CreateTeamsUsers (19)
+Migrating to CreateReviewMappings (20)
+Migrating to CreateReviews (21)
+Migrating to CreateReviewOfReviewMappings (22)
+Migrating to CreateSurveyResponses (23)
+Migrating to CreateReviewFeedbacks (24)
+Migrating to CreateAssignmentsQuestionnaires (25)
+Migrating to CreateReviewScores (26)
+Migrating to CreateReviewOfReviews (27)
+Migrating to CreateReviewOfReviewScores (28)
+Migrating to CreateParticipants (29)
+Migrating to CreateResubmissionTimes (30)
+Migrating to CreateDueDates (31)
+Migrating to AuthorFeedback (32)
+Migrating to DueDateRounds (33)
+Migrating to CreateSurveyDeployments (34)
+Migrating to AddSurveyDeployment (35)
+Migrating to CreateSurveyParticipants (36)
+Migrating to CreateTaMappings (37)
+Migrating to UpdateReviewMappings (38)
+Migrating to UpdateReviewScores (39)
+Migrating to UpdateReviewFeedbacks (40)
+Migrating to DowncasePermissions (41)
+Migrating to CreateInvitationTable (42)
+Migrating to UpdateReviewOfReviewMappings (43)
+Migrating to MenuUpdateUsers (44)
+Migrating to MenuUpdateImpersonate (45)
+Migrating to MenuUpdateImportFile (46)
+Migrating to MenuUpdateReviewMapping (47)
+Migrating to MenuUpdateGrades (48)
+Migrating to MenuUpdateCourseEvaluation (49)
+Migrating to MenuUpdateTeamList (50)
+Migrating to MenuUpdateParticipantChoices (51)
+Migrating to UpdateParticipants (52)
+Migrating to CreateNodes (53)
+Migrating to CreateTreeFolders (54)
+Migrating to CreateFolderNodes (55)
+Migrating to CreateQuestionnaireTypeNodes (56)
+Migrating to CreateQuestionnaireNodes (57)
+Migrating to CreateAssignmentNodes (58)
+Migrating to CreateCourseNodes (59)
+Migrating to MenuUpdateTreeDisplay (60)
+Migrating to ControllerUpdateCoursesUsers (61)
+Migrating to UpdateCourses (62)
+Migrating to CreateTaRole (63)
+Migrating to UpdateTeamsForCourse (64)
+Migrating to CreateTeamNodes (65)
+Migrating to CreateTeamUserNodes (66)
+Migrating to UpdateParticipantTypes (67)
+Migrating to CreateComments (68)
+Migrating to MoveFiles (69)
+Migrating to CreatePeerReviews (70)
+Migrating to CreatePeerReviewScores (71)
+Migrating to AddUnknownControllers (72)
+Migrating to RemoveMissingControllers (73)
+Migrating to UpdateAssignmentsForInvitations (74)
+Migrating to ControllerUpdatePasswords (75)
+Migrating to UpdateMenus (76)
+Migrating to Repl0ValsInAuthFb (77)
+Migrating to RenamePeerReviewQuestionnaireIdToTeammateQuestionnaireIdInAssignments (78)
+Migrating to RenamePeerReviews (79)
+Migrating to CorrectQuestionnaireTypeInReviewScores (80)
+Migrating to CreateScores (81)
+Migrating to AddNewQuestionnaireTypes (82)
+Migrating to RelocateToScoresTable (83)
+Migrating to AddNewMappingStrategy (84)
+Migrating to UpdateControllersTeammateReview (85)
+Migrating to CreateNotifications (86)
+Migrating to CreateQuestionnaireWeights (87)
+Migrating to UpdateCustom (88)
+Migrating to AddHandleToUsers (89)
+Migrating to AddHandleToParticipants (90)
+Migrating to AddTimeStampToFeedback (91)
+Migrating to AddChangeHandleAction (92)
+Migrating to AddReviewerIdToReviewOfReviewMappings (93)
+Migrating to RemoveFieldsFromFeedback (94)
+Migrating to RemoveAdditionalFeedback (95)
+Migrating to CreateTeammateReviewMappings (96)
+Migrating to CreateFeedbackMappings (97)
+Migrating to StandardizeReviewOfReview (98)
+Migrating to StandardizeReviewOfReviewMappings (99)
+Migrating to UpdateControllersStudentTask (100)
+Migrating to StandardizeReviews (101)
+Migrating to StandardizeReviewMappings (102)
+Migrating to UpdateQuestionnaireMenus (103)
+Migrating to UpdateRubricTypes (104)
+Migrating to UpdateControllersPublishing (105)
+Migrating to UpdateControllerForExport (106)
+Migrating to MergeQuestionnaireAndType (107)
+Migrating to CreateQuestionnaireFolderNodes (108)
+Migrating to CleanupAssignmentIndices (109)
+Migrating to CreateAssignmentQuestionnaires (110)
+Migrating to AddActionGradesViewMyScores (111)
+Migrating to CreateResponseMaps (112)
+Migrating to CleanUpQuestionnaires (113)
+Migrating to UpdateControllersForResponse (114)
+Migrating to CreateScoreCaches (115)
+Migrating to CreateSignUpTopics (116)
+Migrating to CreateSignedUpUsers (117)
+Migrating to UpdateAssignments (118)
+Migrating to CreateTopicDependencies (119)
+Migrating to SetPermissionsForSignupSheet (120)
+Migrating to CreateSuggestions (121)
+Migrating to CreateSuggestionComments (122)
+Migrating to AddColumnAllowSuggestionsToAssignments (123)
+Migrating to SetPermissionForSuggestion (124)
+Migrating to AddFlagThreToDueDates (125)
+Migrating to UpdateCache (126)
+Migrating to AddLeaderboardPrivacyToUser (127)
+Migrating to CreateLeaderboards (128)
+Migrating to MenuUpdateLeaderboard (129)
+Migrating to AddPopupPermission (130)
+Migrating to RenameFieldsInAssignments (131)
+Migrating to UpdateFieldsInSignUpTopics (132)
+Migrating to AddTopicIdToParticipants (133)
+Migrating to CreateTopicDeadlines (134)
+Migrating to CreateSessions (135)
+Migrating to UpdateMenuImpersonateRevert (20100920141223)
+Migrating to UpdateMenuDeleteObject (20101001183244)
+Migrating to DigitalSignature (20101018010541)
+Migrating to SetPermissionForUserKeys (20101018010542)
+Migrating to AddPotentialResponseDeadlineToResponseMaps (20101116184601)
+Migrating to AddDynamicReviewFieldsToAssignments (20101116184602)
+Migrating to PermissionForAddDynamicReviewerAction (20101117031216)
+Migrating to AddPersistenceTokenToUser (20101128192024)
+Migrating to AddSelfSelectedReviewFields (20101205034327)
+Migrating to UpdateReviewFields (20101214034327)
+Migrating to AddNotificationAcceptedToResponseMap (20101222143748)
+Migrating to SubmitMultipleHyperlinks (20110205220301)
+Migrating to RemoveDynamicReviewerAssignmentsEnabledFromAssignments (20110210160753)
+Migrating to RemoveTopicFromParticipants (20110304054311)
+Migrating to DropReviewAndMappingStrategies (20110323134426)
+Migrating to PermissionForReviewMapping (20110324001445)
+Migrating to PermissionForMetareviewAssignment (20110407154154)
+Migrating to CreateDropDueDate (20110408190423)
+Migrating to TopicReviewThreshold (20110410232719)
+Migrating to RenameDropTopic (20110512155258)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-15 18:07:32) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 6959ms (View: 170, DB: 26) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-15 18:08:16) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"auth", "login"=>{"name"=>"sskanitk", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 99ms (DB: 19) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-15 18:08:17) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 82ms (View: 21, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-15 18:09:08) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 122ms (DB: 19) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-15 18:09:08) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 12, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-15 18:09:12) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 187ms (DB: 56) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-15 18:09:12) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 132ms (DB: 18) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-15 18:09:12) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 631ms (View: 473, DB: 80) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:09:43) [GET]
+  Parameters: {"name"=>["impersonate"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/impersonate/start
+Completed in 75ms (DB: 17) | 302 Found [http://127.0.0.1/menu/impersonate]
+
+
+Processing ImpersonateController#start (for 127.0.0.1 at 2011-10-15 18:09:43) [GET]
+  Parameters: {"action"=>"start", "controller"=>"impersonate"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering impersonate/start
+Completed in 164ms (View: 89, DB: 17) | 200 OK [http://127.0.0.1/impersonate/start]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:09:49) [GET]
+  Parameters: {"name"=>["student_task"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/student_task/list
+Completed in 77ms (DB: 17) | 302 Found [http://127.0.0.1/menu/student_task]
+
+
+Processing StudentTaskController#list (for 127.0.0.1 at 2011-10-15 18:09:50) [GET]
+  Parameters: {"action"=>"list", "controller"=>"student_task"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering student_task/list
+Completed in 359ms (View: 37, DB: 25) | 200 OK [http://127.0.0.1/student_task/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:09:52) [GET]
+  Parameters: {"name"=>["admin"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/site_admin
+Completed in 77ms (DB: 18) | 302 Found [http://127.0.0.1/menu/admin]
+
+
+Processing ContentPagesController#view (for 127.0.0.1 at 2011-10-15 18:09:52) [GET]
+  Parameters: {"action"=>"view", "page_name"=>["site_admin"], "controller"=>"content_pages"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Page: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view
+Completed in 196ms (View: 82, DB: 27) | 200 OK [http://127.0.0.1/site_admin]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:10:05) [GET]
+  Parameters: {"name"=>["show", "administrators"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/admin/list_administrators
+Completed in 79ms (DB: 21) | 302 Found [http://127.0.0.1/menu/show/administrators]
+
+
+Processing AdminController#list_administrators (for 127.0.0.1 at 2011-10-15 18:10:06) [GET]
+  Parameters: {"action"=>"list_administrators", "controller"=>"admin"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering admin/list_administrators
+Completed in 140ms (View: 63, DB: 18) | 200 OK [http://127.0.0.1/admin/list_administrators]
+
+
+Processing AdminController#new_administrator (for 127.0.0.1 at 2011-10-15 18:10:19) [POST]
+  Parameters: {"name"=>"sskanitk", "action"=>"new_administrator", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"admin"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering admin/new_administrator
+
+ActionView::TemplateError (Missing template admin/_m.erb in view path app/views) on line #8 of app/views/admin/new_administrator.html.erb:
+5:  <% end %>
+6: <%= flash[:notice] %>
+7: <% form_tag :action => 'create_administrator' do %>
+8:   <%= render :partial => 'm' %>
+9:   <% if @found %>
+10:    <%= submit_tag "Save", :name=>"save" %>
+11:  <% else %>
+
+    app/views/admin/new_administrator.html.erb:8
+    app/views/admin/new_administrator.html.erb:7
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:10:37) [GET]
+  Parameters: {"name"=>["manage", "users"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 75ms (DB: 16) | 302 Found [http://127.0.0.1/menu/manage/users]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:10:37) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 147ms (View: 56, DB: 26) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-10-15 18:10:44) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering users/new
+Completed in 144ms (View: 60, DB: 19) | 200 OK [http://127.0.0.1/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-10-15 18:11:33) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"users", "user"=>{"email_on_submission"=>"false", "name"=>"sskanitk", "email_on_review_of_review"=>"false", "email_on_review"=>"false", "clear_password"=>"[FILTERED]", "fullname"=>"Salil Kanitkar", "role_id"=>"3", "clear_password_confirmation"=>"[FILTERED]", "leaderboard_privacy"=>"false", "email"=>"sskanitk@ncsu.edu"}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Sent mail to sskanitk@ncsu.edu
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 1694ms (DB: 115) | 302 Found [http://127.0.0.1/users/create]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:11:35) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 103ms (View: 18, DB: 18) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:11:42) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 103ms (View: 18, DB: 24) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:11:47) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"s"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+s
+Rendering template within layouts/application
+Rendering users/list
+Completed in 104ms (View: 18, DB: 22) | 200 OK [http://127.0.0.1/users/list?letter=s]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:11:49) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"a"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 169ms (View: 18, DB: 20) | 200 OK [http://127.0.0.1/users/list?letter=a]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:11:52) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"s"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+s
+Rendering template within layouts/application
+Rendering users/list
+Completed in 103ms (View: 19, DB: 17) | 200 OK [http://127.0.0.1/users/list?letter=s]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-10-15 18:11:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering users/new
+Completed in 170ms (View: 18, DB: 18) | 200 OK [http://127.0.0.1/users/new]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-10-15 18:12:03) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering users/new
+Completed in 101ms (View: 19, DB: 17) | 200 OK [http://127.0.0.1/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-10-15 18:12:31) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"users", "user"=>{"email_on_submission"=>"false", "name"=>"argholka", "email_on_review_of_review"=>"false", "email_on_review"=>"false", "clear_password"=>"[FILTERED]", "fullname"=>"Ameya Gholkar", "role_id"=>"3", "clear_password_confirmation"=>"[FILTERED]", "leaderboard_privacy"=>"false", "email"=>"argholka@ncsu.edu"}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Sent mail to argholka@ncsu.edu
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 1291ms (DB: 106) | 302 Found [http://127.0.0.1/users/create]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:12:33) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 101ms (View: 17, DB: 19) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:12:41) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"s"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+s
+Rendering template within layouts/application
+Rendering users/list
+Completed in 168ms (View: 19, DB: 17) | 200 OK [http://127.0.0.1/users/list?letter=s]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2011-10-15 18:12:42) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering users/new
+Completed in 106ms (View: 19, DB: 21) | 200 OK [http://127.0.0.1/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2011-10-15 18:14:12) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"users", "user"=>{"email_on_submission"=>"false", "name"=>"ssounda2", "email_on_review_of_review"=>"false", "email_on_review"=>"false", "clear_password"=>"[FILTERED]", "fullname"=>"Subashini Soundararajan", "role_id"=>"3", "clear_password_confirmation"=>"[FILTERED]", "leaderboard_privacy"=>"false", "email"=>"ssounda2@ncsu.edu"}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Sent mail to ssounda2@ncsu.edu
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 1220ms (DB: 91) | 302 Found [http://127.0.0.1/users/create]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:14:14) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 104ms (View: 19, DB: 19) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-15 18:14:17) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"s"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+s
+Rendering template within layouts/application
+Rendering users/list
+Completed in 105ms (View: 19, DB: 19) | 200 OK [http://127.0.0.1/users/list?letter=s]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 18:14:32) [GET]
+  Parameters: {"name"=>["Survey Deployments"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/survey_deployment/list
+Completed in 77ms (DB: 16) | 302 Found [http://127.0.0.1/menu/Survey%20Deployments]
+
+
+Processing SurveyDeploymentController#list (for 127.0.0.1 at 2011-10-15 18:14:32) [GET]
+  Parameters: {"action"=>"list", "controller"=>"survey_deployment"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering survey_deployment/list
+Completed in 161ms (View: 56, DB: 20) | 200 OK [http://127.0.0.1/survey_deployment/list]
+
+
+Processing AuthController#logout (for 127.0.0.1 at 2011-10-15 18:14:37) [POST]
+  Parameters: {"commit"=>"Logout", "action"=>"logout", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"auth"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/
+Completed in 64ms (DB: 19) | 302 Found [http://127.0.0.1/auth/logout]
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-15 18:14:37) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 182ms (View: 14, DB: 21) | 200 OK [http://127.0.0.1/]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 22:52:16) [GET]
+  Parameters: {"name"=>["student_task"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/student_task/list
+Completed in 66ms (DB: 22) | 302 Found [http://127.0.0.1/menu/student_task]
+
+
+Processing StudentTaskController#list (for 127.0.0.1 at 2011-10-15 22:52:16) [GET]
+  Parameters: {"action"=>"list", "controller"=>"student_task"}
+(Role still current)
+Action: authorised
+Authorised? true
+
+NoMethodError (undefined method `is_new_user' for nil:NilClass):
+  app/controllers/student_task_controller.rb:5:in `list'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+  C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+  -e:1:in `load'
+  -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-15 22:52:21) [GET]
+  Parameters: {"name"=>["home"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/home
+Completed in 139ms (DB: 13) | 302 Found [http://127.0.0.1/menu/home]
+
+
+Processing ContentPagesController#view (for 127.0.0.1 at 2011-10-15 22:52:21) [GET]
+  Parameters: {"action"=>"view", "page_name"=>["home"], "controller"=>"content_pages"}
+(Role still current)
+Page: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view
+Completed in 112ms (View: 16, DB: 19) | 200 OK [http://127.0.0.1/home]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-16 20:07:14) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+(Role still current)
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 1338ms (View: 240, DB: 554) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-16 20:09:17) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 251ms (DB: 81) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-16 20:09:17) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 91ms (DB: 18) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:09:17) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 908ms (View: 544, DB: 244) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:11:28) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_review_rubrics
+Completed in 84ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/review%20rubrics]
+
+
+Processing TreeDisplayController#goto_review_rubrics (for 127.0.0.1 at 2011-10-16 20:11:28) [GET]
+  Parameters: {"action"=>"goto_review_rubrics", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 117ms (DB: 30) | 302 Found [http://127.0.0.1/tree_display/goto_review_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:29) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 169ms (View: 16, DB: 42) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:11:36) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "metareview rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_metareview_rubrics
+Completed in 136ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/metareview%20rubrics]
+
+
+Processing TreeDisplayController#goto_metareview_rubrics (for 127.0.0.1 at 2011-10-16 20:11:37) [GET]
+  Parameters: {"action"=>"goto_metareview_rubrics", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 119ms (DB: 29) | 302 Found [http://127.0.0.1/tree_display/goto_metareview_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:37) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 233ms (View: 74, DB: 47) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:41) [POST]
+  Parameters: {"commit"=>"Sort", "action"=>"list", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "display"=>{"sortvar"=>"created_at", "sortorder"=>"desc", "check"=>"0"}, "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 167ms (View: 16, DB: 43) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:43) [POST]
+  Parameters: {"commit"=>"Sort", "action"=>"list", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "display"=>{"sortvar"=>"created_at", "sortorder"=>"desc", "check"=>"0"}, "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 234ms (View: 15, DB: 50) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-16 20:11:45) [GET]
+  Parameters: {"action"=>"drill", "root"=>"1", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 84ms (DB: 17) | 302 Found [http://127.0.0.1/tree_display/drill?root=1]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:46) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 148ms (View: 17, DB: 37) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:11:48) [GET]
+  Parameters: {"name"=>["manage", "questionnaires"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_questionnaires
+Completed in 85ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/questionnaires]
+
+
+Processing TreeDisplayController#goto_questionnaires (for 127.0.0.1 at 2011-10-16 20:11:49) [GET]
+  Parameters: {"action"=>"goto_questionnaires", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 119ms (DB: 30) | 302 Found [http://127.0.0.1/tree_display/goto_questionnaires]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:11:49) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 145ms (View: 17, DB: 35) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:12:42) [GET]
+  Parameters: {"name"=>["manage", "questionnaires"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_questionnaires
+Completed in 87ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/questionnaires]
+
+
+Processing TreeDisplayController#goto_questionnaires (for 127.0.0.1 at 2011-10-16 20:12:42) [GET]
+  Parameters: {"action"=>"goto_questionnaires", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 120ms (DB: 29) | 302 Found [http://127.0.0.1/tree_display/goto_questionnaires]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:12:42) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 206ms (View: 18, DB: 36) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:12:48) [POST]
+  Parameters: {"commit"=>"Sort", "action"=>"list", "authenticity_token"=>"Rl17VKfY779OUCW8KFtUjb42P8ZM+zVHhEhrMp8mqOo=", "display"=>{"sortvar"=>"name", "sortorder"=>"desc", "check"=>"0"}, "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 142ms (View: 17, DB: 37) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:12:55) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "course evaluations"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_surveys
+Completed in 87ms (DB: 18) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/course%20evaluations]
+
+
+Processing TreeDisplayController#goto_surveys (for 127.0.0.1 at 2011-10-16 20:12:55) [GET]
+  Parameters: {"action"=>"goto_surveys", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 120ms (DB: 28) | 302 Found [http://127.0.0.1/tree_display/goto_surveys]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:12:55) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 234ms (View: 16, DB: 52) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-16 20:18:13) [GET]
+  Parameters: {"name"=>["manage", "assignments"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_assignments
+Completed in 84ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/assignments]
+
+
+Processing TreeDisplayController#goto_assignments (for 127.0.0.1 at 2011-10-16 20:18:13) [GET]
+  Parameters: {"action"=>"goto_assignments", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 118ms (DB: 27) | 302 Found [http://127.0.0.1/tree_display/goto_assignments]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-16 20:18:14) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 191ms (View: 14, DB: 50) | 200 OK [http://127.0.0.1/tree_display/list]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-19 15:50:31) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 6781ms (View: 212, DB: 107) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:50:43) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 147ms (DB: 32) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:50:44) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 78ms (View: 22, DB: 15) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:50:50) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 141ms (DB: 34) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:50:50) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 67ms (View: 13, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:50:56) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 86ms (DB: 37) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:50:56) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 68ms (View: 13, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:51:02) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 96ms (DB: 38) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:51:02) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 13, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:53:40) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 100ms (DB: 39) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:53:40) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 124ms (View: 14, DB: 15) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 15:58:18) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 87ms (DB: 33) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 15:58:18) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 69ms (View: 12, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:05:11) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 147ms (DB: 37) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:05:11) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 12, DB: 13) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:05:18) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 83ms (DB: 32) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:05:18) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 13, DB: 10) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:17:01) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 89ms (DB: 34) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:17:01) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 68ms (View: 12, DB: 15) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:17:07) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 83ms (DB: 32) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:17:07) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 132ms (View: 13, DB: 13) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:24:15) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 94ms (DB: 33) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:24:15) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 12, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:24:46) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 142ms (DB: 36) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:24:46) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 79ms (View: 13, DB: 15) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:25:07) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 87ms (DB: 34) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:25:07) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 67ms (View: 13, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:28:00) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 85ms (DB: 32) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:28:00) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 66ms (View: 13, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:28:08) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 86ms (DB: 36) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:28:08) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 124ms (View: 71, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:28:20) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 88ms (DB: 35) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:28:20) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 69ms (View: 14, DB: 13) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:46:56) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 142ms (DB: 33) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:46:56) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 68ms (View: 13, DB: 13) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:46:59) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 71ms (View: 16, DB: 12) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 16:48:33) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 88ms (DB: 34) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 16:48:34) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 68ms (View: 13, DB: 13) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 17:00:12) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 87ms (DB: 32) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 17:00:12) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 68ms (View: 13, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 17:07:41) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 169ms (View: 50, DB: 21) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 17:08:59) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 103ms (DB: 35) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 17:08:59) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 81ms (View: 14, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 17:09:37) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 154ms (DB: 33) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-19 17:09:38) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+(Role still current)
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 77ms (View: 13, DB: 14) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-19 17:09:41) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+(Role still current)
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 142ms (DB: 41) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-19 17:09:42) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 148ms (DB: 21) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:09:42) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1920ms (View: 1457, DB: 313) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:10:29) [GET]
+  Parameters: {"name"=>["manage", "users"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 172ms (DB: 19) | 302 Found [http://127.0.0.1/menu/manage/users]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-19 17:10:30) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 454ms (View: 165, DB: 104) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-19 17:10:34) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"n"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+n
+Rendering template within layouts/application
+Rendering users/list
+Completed in 385ms (View: 39, DB: 80) | 200 OK [http://127.0.0.1/users/list?letter=n]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:10:41) [GET]
+  Parameters: {"name"=>["show", "super-administrators"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/admin/list_super_administrators
+Completed in 90ms (DB: 20) | 302 Found [http://127.0.0.1/menu/show/super-administrators]
+
+
+Processing AdminController#list_super_administrators (for 127.0.0.1 at 2011-10-19 17:10:41) [GET]
+  Parameters: {"action"=>"list_super_administrators", "controller"=>"admin"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering admin/list_super_administrators
+Completed in 204ms (View: 27, DB: 18) | 200 OK [http://127.0.0.1/admin/list_super_administrators]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:10:51) [GET]
+  Parameters: {"name"=>["manage", "users"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 95ms (DB: 18) | 302 Found [http://127.0.0.1/menu/manage/users]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-19 17:10:51) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 334ms (View: 19, DB: 67) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-19 17:10:54) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"n"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+n
+Rendering template within layouts/application
+Rendering users/list
+Completed in 377ms (View: 40, DB: 81) | 200 OK [http://127.0.0.1/users/list?letter=n]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:14:47) [GET]
+  Parameters: {"name"=>["student_task"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/student_task/list
+Completed in 97ms (DB: 18) | 302 Found [http://127.0.0.1/menu/student_task]
+
+
+Processing StudentTaskController#list (for 127.0.0.1 at 2011-10-19 17:14:47) [GET]
+  Parameters: {"action"=>"list", "controller"=>"student_task"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering student_task/list
+Completed in 544ms (View: 70, DB: 59) | 200 OK [http://127.0.0.1/student_task/list]
+
+
+Processing StudentTaskController#view (for 127.0.0.1 at 2011-10-19 17:22:47) [GET]
+  Parameters: {"action"=>"view", "id"=>"9505", "controller"=>"student_task"}
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering student_task/view
+Completed in 389ms (View: 100, DB: 44) | 200 OK [http://127.0.0.1/student_task/view/9505]
+
+
+Processing StudentReviewController#list (for 127.0.0.1 at 2011-10-19 17:22:50) [GET]
+  Parameters: {"action"=>"list", "id"=>"9505", "controller"=>"student_review"}
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering student_review/list
+Completed in 688ms (View: 164, DB: 95) | 200 OK [http://127.0.0.1/student_review/list/9505]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:46:54) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_review_rubrics
+Completed in 98ms (DB: 19) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/review%20rubrics]
+
+
+Processing TreeDisplayController#goto_review_rubrics (for 127.0.0.1 at 2011-10-19 17:46:54) [GET]
+  Parameters: {"action"=>"goto_review_rubrics", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 136ms (DB: 36) | 302 Found [http://127.0.0.1/tree_display/goto_review_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:46:54) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 286ms (View: 25, DB: 62) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:47:03) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "metareview rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_metareview_rubrics
+Completed in 93ms (DB: 20) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/metareview%20rubrics]
+
+
+Processing TreeDisplayController#goto_metareview_rubrics (for 127.0.0.1 at 2011-10-19 17:47:03) [GET]
+  Parameters: {"action"=>"goto_metareview_rubrics", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 136ms (DB: 35) | 302 Found [http://127.0.0.1/tree_display/goto_metareview_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:47:04) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 197ms (View: 16, DB: 59) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:47:08) [POST]
+  Parameters: {"commit"=>"Sort", "action"=>"list", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "display"=>{"sortvar"=>"created_at", "sortorder"=>"desc", "check"=>"0"}, "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 213ms (View: 28, DB: 64) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:47:13) [GET]
+  Parameters: {"name"=>["manage", "courses"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_courses
+Completed in 157ms (DB: 16) | 302 Found [http://127.0.0.1/menu/manage/courses]
+
+
+Processing TreeDisplayController#goto_courses (for 127.0.0.1 at 2011-10-19 17:47:14) [GET]
+  Parameters: {"action"=>"goto_courses", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 136ms (DB: 30) | 302 Found [http://127.0.0.1/tree_display/goto_courses]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:47:14) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 484ms (View: 204, DB: 98) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:48:53) [POST]
+  Parameters: {"commit"=>"Sort", "action"=>"list", "authenticity_token"=>"Ocr4jcwKGd8j3B8vpar78GtCjXJwEH0Jz+HxtGbUBWY=", "display"=>{"sortvar"=>"created_at", "sortorder"=>"desc", "check"=>"0"}, "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 506ms (View: 284, DB: 103) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:48:58) [GET]
+  Parameters: {"name"=>["manage", "assignments"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_assignments
+Completed in 92ms (DB: 18) | 302 Found [http://127.0.0.1/menu/manage/assignments]
+
+
+Processing TreeDisplayController#goto_assignments (for 127.0.0.1 at 2011-10-19 17:48:58) [GET]
+  Parameters: {"action"=>"goto_assignments", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 210ms (DB: 34) | 302 Found [http://127.0.0.1/tree_display/goto_assignments]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:48:59) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 748ms (View: 495, DB: 105) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing SurveyResponseController#view_responses (for 127.0.0.1 at 2011-10-19 17:49:39) [GET]
+  Parameters: {"action"=>"view_responses", "id"=>"444", "controller"=>"survey_response"}
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering survey_response/view_responses
+Completed in 676ms (View: 83, DB: 276) | 200 OK [http://127.0.0.1/survey_response/view_responses/444]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:50:37) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "teammate review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_teammatereview_rubrics
+Completed in 99ms (DB: 21) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/teammate%20review%20rubrics]
+
+
+Processing TreeDisplayController#goto_teammatereview_rubrics (for 127.0.0.1 at 2011-10-19 17:50:37) [GET]
+  Parameters: {"action"=>"goto_teammatereview_rubrics", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 201ms (DB: 37) | 302 Found [http://127.0.0.1/tree_display/goto_teammatereview_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:50:38) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 305ms (View: 38, DB: 123) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-19 17:51:25) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_review_rubrics
+Completed in 169ms (DB: 18) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/review%20rubrics]
+
+
+Processing TreeDisplayController#goto_review_rubrics (for 127.0.0.1 at 2011-10-19 17:51:25) [GET]
+  Parameters: {"action"=>"goto_review_rubrics", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 137ms (DB: 39) | 302 Found [http://127.0.0.1/tree_display/goto_review_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-19 17:51:26) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 288ms (View: 27, DB: 72) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-19 17:51:39) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questionnaire"}
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 322ms (View: 186, DB: 32) | 200 OK [http://127.0.0.1/questionnaire/edit/1]
