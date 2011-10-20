@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111019225805) do
+ActiveRecord::Schema.define(:version => 20111020174506) do
 
   create_table "assignment_questionnaires", :force => true do |t|
     t.integer "assignment_id"
@@ -433,6 +433,13 @@ ActiveRecord::Schema.define(:version => 20111019225805) do
 
   add_index "scores", ["question_id"], :name => "fk_score_questions"
   add_index "scores", ["response_id"], :name => "fk_score_response"
+
+  create_table "sections", :force => true do |t|
+    t.integer "questionnaire_id"
+    t.boolean "is_extra_credit",  :default => false
+  end
+
+  add_index "sections", ["questionnaire_id"], :name => "fk_questionnaire"
 
   create_table "sessions", :force => true do |t|
     t.string   "session_id", :default => "", :null => false
