@@ -3363,3 +3363,1663 @@ Authorised? true
 Rendering template within layouts/application
 Rendering tree_display/list
 Completed in 17926ms (View: 15739, DB: 1861) | 200 OK [http://127.0.0.1/tree_display/list]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-22 19:40:27) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 7090ms (View: 124, DB: 549) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-22 19:40:40) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 558ms (DB: 446) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-22 19:40:41) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 77ms (DB: 16) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:40:41) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 2058ms (View: 1291, DB: 618) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:40:52) [GET]
+  Parameters: {"name"=>["manage", "users"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/users/list
+Completed in 73ms (DB: 16) | 302 Found [http://127.0.0.1/menu/manage/users]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-22 19:40:52) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+a
+Rendering template within layouts/application
+Rendering users/list
+Completed in 384ms (View: 43, DB: 98) | 200 OK [http://127.0.0.1/users/list]
+
+
+Processing UsersController#list (for 127.0.0.1 at 2011-10-22 19:40:55) [GET]
+  Parameters: {"action"=>"list", "controller"=>"users", "letter"=>"h"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+h
+Rendering template within layouts/application
+Rendering users/list
+Completed in 318ms (View: 19, DB: 64) | 200 OK [http://127.0.0.1/users/list?letter=h]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:46:52) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_review_rubrics
+Completed in 75ms (DB: 16) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/review%20rubrics]
+
+
+Processing TreeDisplayController#goto_review_rubrics (for 127.0.0.1 at 2011-10-22 19:46:52) [GET]
+  Parameters: {"action"=>"goto_review_rubrics", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 195ms (DB: 34) | 302 Found [http://127.0.0.1/tree_display/goto_review_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:46:53) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 188ms (View: 24, DB: 56) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:46:58) [GET]
+  Parameters: {"name"=>["manage", "assignments"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_assignments
+Completed in 133ms (DB: 17) | 302 Found [http://127.0.0.1/menu/manage/assignments]
+
+
+Processing TreeDisplayController#goto_assignments (for 127.0.0.1 at 2011-10-22 19:46:58) [GET]
+  Parameters: {"action"=>"goto_assignments", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 108ms (DB: 26) | 302 Found [http://127.0.0.1/tree_display/goto_assignments]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:46:58) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 753ms (View: 484, DB: 85) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing AssignmentController#edit (for 127.0.0.1 at 2011-10-22 19:47:04) [GET]
+  Parameters: {"action"=>"edit", "id"=>"466", "controller"=>"assignment"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering assignment/edit
+Completed in 911ms (View: 179, DB: 395) | 200 OK [http://127.0.0.1/assignment/edit/466]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:47:25) [GET]
+  Parameters: {"name"=>["manage", "assignments"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_assignments
+Completed in 139ms (DB: 18) | 302 Found [http://127.0.0.1/menu/manage/assignments]
+
+
+Processing TreeDisplayController#goto_assignments (for 127.0.0.1 at 2011-10-22 19:47:25) [GET]
+  Parameters: {"action"=>"goto_assignments", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 110ms (DB: 25) | 302 Found [http://127.0.0.1/tree_display/goto_assignments]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:47:26) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 760ms (View: 492, DB: 82) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing AssignmentController#edit (for 127.0.0.1 at 2011-10-22 19:47:38) [GET]
+  Parameters: {"action"=>"edit", "id"=>"466", "controller"=>"assignment"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering assignment/edit
+Completed in 470ms (View: 83, DB: 76) | 200 OK [http://127.0.0.1/assignment/edit/466]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:47:50) [GET]
+  Parameters: {"name"=>["manage", "questionnaires", "review rubrics"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/goto_review_rubrics
+Completed in 133ms (DB: 16) | 302 Found [http://127.0.0.1/menu/manage/questionnaires/review%20rubrics]
+
+
+Processing TreeDisplayController#goto_review_rubrics (for 127.0.0.1 at 2011-10-22 19:47:50) [GET]
+  Parameters: {"action"=>"goto_review_rubrics", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 110ms (DB: 31) | 302 Found [http://127.0.0.1/tree_display/goto_review_rubrics]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:47:50) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 238ms (View: 24, DB: 52) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-22 19:47:54) [GET]
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 277ms (View: 81, DB: 118) | 200 OK [http://127.0.0.1/questionnaire/edit/1]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 19:55:19) [GET]
+  Parameters: {"name"=>["home"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/home
+Completed in 142ms (DB: 80) | 302 Found [http://127.0.0.1/menu/home]
+
+
+Processing ContentPagesController#view (for 127.0.0.1 at 2011-10-22 19:55:19) [GET]
+  Parameters: {"action"=>"view", "page_name"=>["home"], "controller"=>"content_pages"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Page: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view
+Completed in 132ms (View: 24, DB: 22) | 200 OK [http://127.0.0.1/home]
+
+
+Processing AuthController#logout (for 127.0.0.1 at 2011-10-22 19:55:24) [POST]
+  Parameters: {"commit"=>"Logout", "action"=>"logout", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/
+Completed in 118ms (DB: 18) | 302 Found [http://127.0.0.1/auth/logout]
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-22 19:55:24) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 101ms (View: 13, DB: 14) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-22 19:55:29) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 106ms (DB: 36) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-22 19:55:29) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 74ms (DB: 16) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 19:55:30) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1295ms (View: 1010, DB: 207) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:00:26) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 128ms (View: 34, DB: 22) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing QuestionnaireController#view (for 127.0.0.1 at 2011-10-22 20:00:49) [GET]
+  Parameters: {"action"=>"view", "id"=>"1", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/view
+Completed in 227ms (View: 35, DB: 25) | 200 OK [http://127.0.0.1/questionnaire/view/1]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:01:24) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 122ms (View: 28, DB: 20) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing QuestionnaireController#create_questionnaire (for 127.0.0.1 at 2011-10-22 20:03:18) [POST]
+  Parameters: {"action"=>"create_questionnaire", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}, "3"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Create review", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 344ms (DB: 186) | 302 Found [http://127.0.0.1/questionnaire/create_questionnaire]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 20:03:18) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1314ms (View: 1015, DB: 223) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-22 20:03:26) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 145ms (View: 33, DB: 33) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-22 20:03:50) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is dungeons the best place around?", "true_false"=>"true"}}, "view_advice"=>"View advice", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/questionnaire/edit_advice/183
+Completed in 186ms (DB: 27) | 302 Found [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit_advice (for 127.0.0.1 at 2011-10-22 20:03:50) [GET]
+  Parameters: {"action"=>"edit_advice", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit_advice
+Completed in 628ms (View: 40, DB: 460) | 200 OK [http://127.0.0.1/questionnaire/edit_advice/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-22 20:04:13) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is dungeons the best place around?", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 350ms (View: 25, DB: 108) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 20:04:19) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1313ms (View: 1019, DB: 213) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#view (for 127.0.0.1 at 2011-10-22 20:04:28) [GET]
+  Parameters: {"action"=>"view", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/view
+Completed in 136ms (View: 28, DB: 28) | 200 OK [http://127.0.0.1/questionnaire/view/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 20:04:32) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1313ms (View: 943, DB: 209) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:04:37) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 117ms (View: 27, DB: 18) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing QuestionnaireController#view (for 127.0.0.1 at 2011-10-22 20:05:45) [GET]
+  Parameters: {"action"=>"view", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/view
+Completed in 219ms (View: 27, DB: 31) | 200 OK [http://127.0.0.1/questionnaire/view/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 20:06:26) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1408ms (View: 1095, DB: 232) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:07:18) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 207ms (View: 27, DB: 19) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:17:35) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 125ms (View: 27, DB: 25) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 20:19:23) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 184ms (View: 27, DB: 18) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+
+
+Processing MenuItemsController#link (for 127.0.0.1 at 2011-10-22 20:29:04) [GET]
+  Parameters: {"name"=>["home"], "action"=>"link", "controller"=>"menu_items"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/home
+Completed in 80ms (DB: 17) | 302 Found [http://127.0.0.1/menu/home]
+
+
+Processing ContentPagesController#view (for 127.0.0.1 at 2011-10-22 20:29:05) [GET]
+  Parameters: {"action"=>"view", "page_name"=>["home"], "controller"=>"content_pages"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Page: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view
+Completed in 192ms (View: 17, DB: 21) | 200 OK [http://127.0.0.1/home]
+
+
+Processing AuthController#logout (for 127.0.0.1 at 2011-10-22 20:29:09) [POST]
+  Parameters: {"commit"=>"Logout", "action"=>"logout", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/
+Completed in 63ms (DB: 15) | 302 Found [http://127.0.0.1/auth/logout]
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-22 20:29:09) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 110ms (View: 18, DB: 19) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-22 20:29:13) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 108ms (DB: 38) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-22 20:29:14) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 74ms (DB: 15) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 20:29:14) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1350ms (View: 1052, DB: 217) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing AuthController#logout (for 127.0.0.1 at 2011-10-22 23:30:30) [POST]
+  Parameters: {"commit"=>"Logout", "action"=>"logout", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth"}
+(Role still current)
+(Logged-in user)
+Session: time expired
+Redirected to http://127.0.0.1:3000/expired
+Filter chain halted as [:goldberg_security_filter] rendered_or_redirected.
+Completed in 721ms (DB: 70) | 302 Found [http://127.0.0.1/auth/logout]
+
+
+Processing ContentPagesController#view (for 127.0.0.1 at 2011-10-22 23:30:31) [GET]
+  Parameters: {"action"=>"view", "page_name"=>["expired"], "controller"=>"content_pages"}
+Page: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view
+Completed in 119ms (View: 14, DB: 18) | 200 OK [http://127.0.0.1/expired]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-22 23:30:37) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"p+nzeqexTNGTooN6grqp/v0TRlTdQ9gxv6+YVBJW9wk=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 141ms (DB: 38) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-22 23:30:38) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 76ms (DB: 15) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-22 23:30:38) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1657ms (View: 1197, DB: 232) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#new (for 127.0.0.1 at 2011-10-22 23:31:24) [GET]
+  Parameters: {"model"=>"ReviewQuestionnaire", "private"=>"0", "action"=>"new", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/new
+Completed in 135ms (View: 31, DB: 19) | 200 OK [http://127.0.0.1/questionnaire/new?model=ReviewQuestionnaire&private=0]
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-24 15:28:34) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 11361ms (View: 169, DB: 453) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-24 15:28:56) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "controller"=>"auth", "login"=>{"name"=>"sskanitk", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+Failed login attempt
+Redirected to http://127.0.0.1:3000/password_retrieval/forgotten
+Completed in 278ms (DB: 159) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing PasswordRetrievalController#forgotten (for 127.0.0.1 at 2011-10-24 15:28:56) [GET]
+  Parameters: {"action"=>"forgotten", "controller"=>"password_retrieval"}
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering password_retrieval/forgotten
+Completed in 103ms (View: 28, DB: 15) | 200 OK [http://127.0.0.1/password_retrieval/forgotten]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-24 15:29:01) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 280ms (DB: 70) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-24 15:29:01) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 109ms (DB: 22) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-24 15:29:02) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 2696ms (View: 1829, DB: 741) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:29:28) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 439ms (View: 102, DB: 109) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:46:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 206ms (View: 48, DB: 37) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:47:40) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 210ms (View: 49, DB: 39) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:48:06) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 283ms (View: 49, DB: 41) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:48:43) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 275ms (View: 124, DB: 38) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing AuthController#logout (for 127.0.0.1 at 2011-10-24 15:50:29) [POST]
+  Parameters: {"commit"=>"Logout", "action"=>"logout", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "controller"=>"auth"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/
+Completed in 91ms (DB: 21) | 302 Found [http://127.0.0.1/auth/logout]
+
+
+Processing ContentPagesController#view_default (for 127.0.0.1 at 2011-10-24 15:50:29) [GET]
+  Parameters: {"action"=>"view_default", "controller"=>"content_pages"}
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering content_pages/view_default
+Completed in 147ms (View: 21, DB: 22) | 200 OK [http://127.0.0.1/]
+
+
+Processing AuthController#login (for 127.0.0.1 at 2011-10-24 15:50:33) [POST]
+  Parameters: {"commit"=>"Login", "action"=>"login", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "controller"=>"auth", "login"=>{"name"=>"admin", "password"=>"[FILTERED]"}}
+Action: authorised
+Authorised? true
+User admin successfully logged in
+Logging in user as role Credentials
+Redirected to http://127.0.0.1:3000/tree_display/drill
+Completed in 231ms (DB: 53) | 302 Found [http://127.0.0.1/auth/login]
+
+
+Processing TreeDisplayController#drill (for 127.0.0.1 at 2011-10-24 15:50:34) [GET]
+  Parameters: {"action"=>"drill", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Redirected to http://127.0.0.1:3000/tree_display/list
+Completed in 109ms (DB: 21) | 302 Found [http://127.0.0.1/tree_display/drill]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-24 15:50:34) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 2004ms (View: 1558, DB: 323) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:50:42) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 203ms (View: 49, DB: 41) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:51:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 319ms (View: 153, DB: 48) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:52:20) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 224ms (View: 63, DB: 42) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:52:38) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 222ms (View: 62, DB: 45) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 15:52:50) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 305ms (View: 71, DB: 44) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 16:54:10) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 214ms (View: 39, DB: 32) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 16:54:22) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 157ms (View: 46, DB: 31) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-24 16:56:17) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1356ms (View: 1049, DB: 221) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#view (for 127.0.0.1 at 2011-10-24 16:56:26) [GET]
+  Parameters: {"action"=>"view", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/view
+Completed in 249ms (View: 131, DB: 31) | 200 OK [http://127.0.0.1/questionnaire/view/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-24 16:59:08) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1384ms (View: 1078, DB: 214) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 16:59:15) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 238ms (View: 126, DB: 29) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:01:06) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 157ms (View: 45, DB: 28) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:12:51) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+
+ActionView::TemplateError (undefined method `ec_questions' for #<ReviewQuestionnaire:0x6e88a50>) on line #30 of app/views/questionnaire/_extra_credit_questions.erb:
+27: 	</tr>
+28: 
+29: 	<% 	i = 1;
+30: 		for @question in @questionnaire.ec_questions %>
+31: 	<tr>
+32: 		<td align=center><input type=checkbox id="question_chk<%= i %>"></td>
+33: 		<td><%= text_field "question[]", 'txt', :size=>70 %></td>
+
+    app/views/questionnaire/_extra_credit_questions.erb:30
+    app/views/questionnaire/edit.html.erb:11
+    app/views/questionnaire/edit.html.erb:5
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:14:25) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #30 of app/views/questionnaire/_extra_credit_questions.erb:
+27: 	</tr>
+28: 
+29: 	<% 	i = 1;
+30: 		for @question in @ec_questions %>
+31: 	<tr>
+32: 		<td align=center><input type=checkbox id="question_chk<%= i %>"></td>
+33: 		<td><%= text_field "question[]", 'txt', :size=>70 %></td>
+
+    app/views/questionnaire/_extra_credit_questions.erb:30
+    app/views/questionnaire/edit.html.erb:11
+    app/views/questionnaire/edit.html.erb:5
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+DEPRECATION WARNING: Kernel#returning has been deprecated in favor of Object#tap. (called from enable_activerecord at C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/vendor/plugins/will_paginate/lib/will_paginate.rb:39)
+** [Hoptoad] Notifier 2.4.11 ready to catch errors
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:20:54) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+
+ActionView::TemplateError (compile error
+C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/app/views/questionnaire/_extra_credit_questions.erb:45: syntax error, unexpected kENSURE, expecting kEND
+C:/My Data/NCSU/Courses Related/Fall-2011/CSC-517/Workspace-RM/expertiza_ec/app/views/questionnaire/_extra_credit_questions.erb:47: syntax error, unexpected $end, expecting kEND) on line #45 of app/views/questionnaire/_extra_credit_questions.erb:
+42: </table>
+
+    app/views/questionnaire/_extra_credit_questions.erb:47:in `compile!'
+    app/views/questionnaire/edit.html.erb:11
+    app/views/questionnaire/edit.html.erb:5
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:21:29) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length) on line #29 of app/views/questionnaire/_extra_credit_questions.erb:
+26: 		<td align=left>Weight</td>
+27: 	</tr>
+28: 
+29:     <% if @ec_questions.length == 0 %>
+30:         <p>There are no questions in the Extra Credit Questions.</p>
+31:     <% else %>
+32: 	    <% 	i = 1
+
+    app/views/questionnaire/_extra_credit_questions.erb:29
+    app/views/questionnaire/edit.html.erb:11
+    app/views/questionnaire/edit.html.erb:5
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:23:30) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 253ms (View: 129, DB: 32) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:24:48) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 174ms (View: 30, DB: 28) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:25:19) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 154ms (View: 30, DB: 30) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:25:32) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 211ms (View: 28, DB: 32) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:26:02) [GET]
+  Parameters: {"action"=>"edit", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 151ms (View: 28, DB: 32) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:26:10) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 159ms (View: 29, DB: 30) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:26:27) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 401ms (View: 25, DB: 156) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:26:32) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 218ms (View: 25, DB: 60) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:27:19) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 229ms (View: 26, DB: 58) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:28:03) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+
+ActionView::TemplateError (undefined method `len' for #<ActionView::Base:0x696bbc8>) on line #29 of app/views/questionnaire/_extra_credit_questions.erb:
+26: 		<td align=left>Weight</td>
+27: 	</tr>
+28: 
+29:     <% if len(@ec_questions) == 0 %>
+30:         <p>There are no questions in the Extra Credit Questions.</p>
+31:     <% else %>
+32: 	    <% 	i = 1
+
+    app/views/questionnaire/_extra_credit_questions.erb:29
+    app/views/questionnaire/edit.html.erb:11
+    app/views/questionnaire/edit.html.erb:5
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/rack.rb:27:in `call'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/hoptoad_notifier-2.4.11/lib/hoptoad_notifier/user_informer.rb:12:in `call'
+    -e:1:in `load'
+    -e:1
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:29:03) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 219ms (View: 30, DB: 53) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:30:31) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 218ms (View: 30, DB: 54) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:31:30) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 282ms (View: 31, DB: 51) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:31:49) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 284ms (View: 32, DB: 53) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:34:03) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 305ms (View: 32, DB: 59) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:34:21) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 224ms (View: 30, DB: 60) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:40:27) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 156ms (View: 33, DB: 27) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:41:19) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 298ms (View: 25, DB: 67) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:41:27) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 272ms (View: 24, DB: 46) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:47:25) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 315ms (View: 112, DB: 59) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:49:14) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 289ms (View: 27, DB: 103) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:54:44) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 334ms (View: 39, DB: 136) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:55:52) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 437ms (View: 35, DB: 176) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:57:01) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 384ms (View: 32, DB: 130) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:57:34) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 404ms (View: 36, DB: 140) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:57:58) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 414ms (View: 95, DB: 152) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:58:40) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 368ms (View: 27, DB: 159) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:59:08) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 363ms (View: 33, DB: 158) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 17:59:36) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "new_question"=>{"2"=>{"weight"=>"1", "txt"=>"Is Snape REALLY the best teacher around? ", "true_false"=>"false"}}, "controller"=>"questionnaire", "question"=>{"1678"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 291ms (View: 27, DB: 111) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:22:03) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "new_question"=>{"2"=>{"weight"=>"1", "txt"=>"Is Snape REALLY the best teacher around? ", "true_false"=>"false"}}, "controller"=>"questionnaire", "question"=>{"1678"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 529ms (View: 40, DB: 190) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:24:52) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 423ms (View: 27, DB: 167) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:03) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 318ms (View: 25, DB: 132) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:06) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 350ms (View: 26, DB: 165) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:07) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 329ms (View: 26, DB: 130) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:09) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"1"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "2"=>{"weight"=>"1", "txt"=>"", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 380ms (View: 26, DB: 130) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:30) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"2"=>{"section"=>"1/", "weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 464ms (View: 29, DB: 224) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:25:33) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"2"=>{"section"=>"1/", "weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 338ms (View: 28, DB: 152) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:27:07) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"2"=>{"section"=>"1/", "weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 381ms (View: 34, DB: 173) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:27:28) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"3"=>{"section"=>"0/", "weight"=>"3", "txt"=>"is salil a bad wizard?", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1687"=>{"weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}, "1688"=>{"weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 362ms (View: 29, DB: 109) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:27:33) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1688"=>{"weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}, "1689"=>{"weight"=>"3", "txt"=>"is salil a bad wizard?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 292ms (View: 29, DB: 60) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing QuestionnaireController#edit (for 127.0.0.1 at 2011-10-24 18:28:09) [POST]
+  Parameters: {"action"=>"edit", "authenticity_token"=>"PqF+J7s1lxf8FaN5fc3Mr8ophvFDsahLFWXmqYgwrEM=", "id"=>"183", "questionnaire"=>{"name"=>"potions_questionnaire_1", "private"=>"false", "id"=>"183", "type"=>"ReviewQuestionnaire", "max_question_score"=>"5", "min_question_score"=>"1"}, "new_question"=>{"4"=>{"section"=>"1/", "weight"=>"5", "txt"=>"is salil REALLY a evil wizard? - Achmed", "true_false"=>"false"}}, "save"=>"Save review", "controller"=>"questionnaire", "question"=>{"1685"=>{"weight"=>"5", "txt"=>"Is Snape the best teacher around?", "true_false"=>"false"}, "1688"=>{"weight"=>"1", "txt"=>"is magic REALLY real?", "true_false"=>"false"}, "1689"=>{"weight"=>"3", "txt"=>"is salil a bad wizard?", "true_false"=>"false"}, "1669"=>{"weight"=>"5", "txt"=>"Is Potions the best subject around?", "true_false"=>"false"}}}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/edit
+Completed in 350ms (View: 32, DB: 137) | 200 OK [http://127.0.0.1/questionnaire/edit/183]
+
+
+Processing TreeDisplayController#list (for 127.0.0.1 at 2011-10-24 18:29:06) [GET]
+  Parameters: {"action"=>"list", "controller"=>"tree_display"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Action: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering tree_display/list
+Completed in 1466ms (View: 1104, DB: 209) | 200 OK [http://127.0.0.1/tree_display/list]
+
+
+Processing QuestionnaireController#view (for 127.0.0.1 at 2011-10-24 18:29:13) [GET]
+  Parameters: {"action"=>"view", "id"=>"183", "controller"=>"questionnaire"}
+(Role still current)
+(Logged-in user)
+Session: time NOT expired
+Controller: authorised
+Authorised? true
+Rendering template within layouts/application
+Rendering questionnaire/view
+Completed in 135ms (View: 29, DB: 28) | 200 OK [http://127.0.0.1/questionnaire/view/183]

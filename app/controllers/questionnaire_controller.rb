@@ -72,7 +72,9 @@ class QuestionnaireController < ApplicationController
     begin
     @questionnaire = Questionnaire.find(params[:id])
     redirect_to :action => 'list' if @questionnaire == nil
-    
+
+    get_extra_credit_questions
+
     if params['save']
       @questionnaire.update_attributes(params[:questionnaire])
       save_questionnaire  
@@ -240,4 +242,10 @@ class QuestionnaireController < ApplicationController
       end
     end
   end
+
+  def get_extra_credit_questions()
+    @ec_questions = Question.find(:all, :conditions => "questionnaire_id = " + params[:id].to_s + " and section = 1")
+    # @questionnaire.ec_questions = ec_questions
+  end
+
 end

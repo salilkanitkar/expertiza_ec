@@ -19,15 +19,21 @@ function deleteQuestions(){
 	}
 }
 
-function addQuestions(){
+function addQuestions(section_val){
 	numQuestionsToAdd = parseInt(document.getElementById("numQuestionsToAdd").value);
 	for(i=0; i<numQuestionsToAdd; i++){
-		addQuestion();
+		addQuestion(section_val);
 	}
 }
 
-function addQuestion(){
-	table = document.getElementById("questions_table");
+function addQuestion(section_val){
+    if ( section_val == 0 ) {
+    	table = document.getElementById("questions_table");
+    }
+    else {
+        table = document.getElementById("ec_questions_table");
+    }
+
 	var row = table.insertRow(-1);
 	
 	id = num_questions;
@@ -57,5 +63,11 @@ function addQuestion(){
 	column.innerHTML = weights;
 	row.appendChild(column);
 	num_questions = num_questions + 1;
+
+    column = document.createElement("td");
+    section = column.innerHTML = "<input id=new_question_" + id + "_section name=new_question[" + id + "][section] size=70 type=hidden value="+section_val+"/>";
+    column.innerHTML = section;
+    row.appendChild(column);
 }
+
 </script>

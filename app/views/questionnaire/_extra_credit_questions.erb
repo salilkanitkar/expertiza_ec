@@ -1,0 +1,46 @@
+<!--[form:questionnaire]-->
+<br/> <br/>
+<table>
+	<tr>
+		<td valign="top"><label for="questionnaire_name">Extra Credit Section for : </label></td>
+		<td>
+			<%= text_field 'questionnaire', 'name'  %>
+			<%= hidden_field 'questionnaire', 'id' %>
+			<%= hidden_field 'questionnaire', 'type' %>
+		</td>
+	</tr>
+</table>
+
+<table id="ec_questions_table">
+	<tr>
+        <td colspan=2 style="padding-bottom: 5pt"><strong>Questions</strong>
+		  <input style="margin-left: 50pt" type="button" value="Add" onclick="addQuestions(1)">
+		  <input id="numQuestionsToAdd" type="text" value="1" size=1>
+		  more question(s)</td>
+		<td colspan=2><input type="button" value="Delete selected questions" onclick="deleteQuestions()"></td>
+	</tr>
+	<tr>
+		<td align=left width=30>Delete</td>
+		<td align=center width=300>Question</td>
+		<td align=center width=100>Scoring</td>
+		<td align=left>Weight</td>
+	</tr>
+
+    <% if @ec_questions.blank? %>
+        <tr>
+         <td colspan="5"><br/> <br/> There are no questions in the Extra Credit Questions. </td>
+        </tr>
+    <% else %>
+	    <% 	i = 1
+		    for @question in @ec_questions %>
+	    <tr>
+		    <td align=center><input type=checkbox id="question_chk<%= i %>"></td>
+		    <td><%= text_field "question[]", 'txt', :size=>70 %></td>
+		    <td><%= select("question[]", :true_false, Question::GRADING_TYPES)%></td>
+		    <td><%= select("question[]", :weight, Question::WEIGHTS)%></td>
+	    </tr>
+	    <% 	i += 1
+		end %>
+    <% end %>
+</table>
+
