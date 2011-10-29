@@ -1,26 +1,67 @@
 <script type="text/javascript">
 num_questions = <%= [@questionnaire.questions.length,1].max %>;
 
-function deleteQuestions(){
+function deleteQuestions(section_val){
 	var checkedObjArray = new Array();
 	var deleteCount = 0;
-	var tbl = document.getElementById("questions_table");
+    var tbl;
+    //alert(section_val);
+    if( section_val == 0){
+	   tbl = document.getElementById("questions_table");
+        //alert("Normal Credit" + tbl.rows.length);
+    }
+    else{
+       tbl = document.getElementById("ec_questions_table");
+       //alert("Extra Credit" + tbl.rows.length);
+    }
 	var numChecks = 0;
+    alert(document.forms[0].elements.length);
 	for(i=0; i<document.forms[0].elements.length; i++){
 		if(document.forms[0].elements[i].type=="checkbox" &&
 		   document.forms[0].elements[i].id.substring(0,12)=="question_chk"){
 			numChecks++;
+            //alert("Inside one loop");
 			if(document.forms[0].elements[i].checked==true){
+                //alert("Inside second loop");
 				tbl.deleteRow(numChecks+1);
 				numChecks = 0;
-				deleteQuestions();
+				deleteQuestions(section_val);
 			}
 		}
 	}
 }
 
+  function deleteRow() {
+            //alert("Delete Row");
+            try {
+            var table = document.getElementById("ec_questions_table");
+            var rowCount = table.rows.length;
+            alert(rowCount);
+            for(var i=0; i<rowCount; i++) {
+                var row = table.rows[i];
+                var chkbox = row.cells[0].childNodes[0];
+                alert(chkbox.id);
+
+                if(chkbox.type == "checkbox" && chkbox.checked) {
+                    alert("Row : " + i);
+                    table.deleteRow(i);
+                    rowCount--;
+                    i--;
+                }
+
+            }
+            }catch(e) {
+                alert(e);
+            }
+        }
+
+
 function addQuestions(section_val){
-	numQuestionsToAdd = parseInt(document.getElementById("numQuestionsToAdd").value);
+    if( section_val == 0){
+	    numQuestionsToAdd = parseInt(document.getElementById("numQuestionsToAdd").value);
+    }else{
+        numQuestionsToAdd = parseInt(document.getElementById("ec_numQuestionsToAdd").value);
+    }
 	for(i=0; i<numQuestionsToAdd; i++){
 		addQuestion(section_val);
 	}
@@ -38,7 +79,7 @@ function addQuestion(section_val){
 	
 	id = num_questions;
 	column = document.createElement("td");
-	column.innerHTML = "<center><input type=checkbox id='question_chk" + num_questions + "'></center>";
+	column.innerHTML = "<center><input type='checkbox' id='question_chk" + num_questions + "'></center>";
 	row.appendChild(column);
 	
 	column = document.createElement("td");

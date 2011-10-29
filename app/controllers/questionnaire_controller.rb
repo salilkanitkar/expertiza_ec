@@ -65,6 +65,7 @@ class QuestionnaireController < ApplicationController
   # View a questionnaire
   def view
     @questionnaire = Questionnaire.find(params[:id])
+    @extra_credit = []
   end
   
   # Edit a questionnaire
@@ -72,8 +73,6 @@ class QuestionnaireController < ApplicationController
     begin
     @questionnaire = Questionnaire.find(params[:id])
     redirect_to :action => 'list' if @questionnaire == nil
-
-    get_extra_credit_questions
 
     if params['save']
       @questionnaire.update_attributes(params[:questionnaire])
@@ -111,6 +110,8 @@ class QuestionnaireController < ApplicationController
     rescue
       flash[:error] = $!
     end
+
+    get_extra_credit_questions # This should be here.
   end
     
   # Define a new questionnaire

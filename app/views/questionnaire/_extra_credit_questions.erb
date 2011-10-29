@@ -15,9 +15,9 @@
 	<tr>
         <td colspan=2 style="padding-bottom: 5pt"><strong>Questions</strong>
 		  <input style="margin-left: 50pt" type="button" value="Add" onclick="addQuestions(1)">
-		  <input id="numQuestionsToAdd" type="text" value="1" size=1>
+		  <input id="ec_numQuestionsToAdd" type="text" value="1" size=1>
 		  more question(s)</td>
-		<td colspan=2><input type="button" value="Delete selected questions" onclick="deleteQuestions()"></td>
+		<td colspan=2><input type="button" value="Delete selected questions" onclick="deleteRow()"></td>
 	</tr>
 	<tr>
 		<td align=left width=30>Delete</td>
@@ -34,7 +34,7 @@
 	    <% 	i = 1
 		    for @question in @ec_questions %>
 	    <tr>
-		    <td align=center><input type=checkbox id="question_chk<%= i %>"></td>
+		    <td align=center><input name='checkbox' type='checkbox' id="ec_question_chk<%= i %>"></td>
 		    <td><%= text_field "question[]", 'txt', :size=>70 %></td>
 		    <td><%= select("question[]", :true_false, Question::GRADING_TYPES)%></td>
 		    <td><%= select("question[]", :weight, Question::WEIGHTS)%></td>
