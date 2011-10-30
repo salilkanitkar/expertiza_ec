@@ -51,6 +51,12 @@ class QuestionnaireController < ApplicationController
     
     if questionnaire
        begin
+          id = questionnaire.id
+          temp = Section.find_by_questionnaire_id(id)
+          if !temp.blank?
+            temp.delete
+          end
+
           name = questionnaire.name
           questionnaire.delete
           flash[:note] = "Questionnaire <B>#{name}</B> was deleted."
