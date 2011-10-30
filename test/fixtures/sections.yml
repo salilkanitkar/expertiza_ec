@@ -1,0 +1,7 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  is_extra_credit: false
+
+two:
+  is_extra_credit: false

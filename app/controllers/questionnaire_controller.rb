@@ -177,7 +177,22 @@ class QuestionnaireController < ApplicationController
     begin
       @questionnaire.save!
       save_questions @questionnaire.id if @questionnaire.id != nil and @questionnaire.id > 0
-      
+
+      # Check if the questionnaire has got questions of extra credit section after this save action.
+      # If it does, then add a row for this questionnaire in sections table, only if it is not present.
+      glist1 = Question.find_all_by_questionnaire_id(@questionnaire.id)
+      temp = 0
+      glist2 = Question.find_all_by_questionnaire_id_and_section(@questionnaire.id, temp)
+      if glist1.length != glist2.length
+        glist3 = Section.find_all_by_questionnaire_id(@questionnaire.id)
+        if glist3.blank?
+          s = Section.new
+          s.questionnaire_id = @questionnaire.id
+          s.is_extra_credit=true
+          s.save!
+        end
+      end
+
       pFolder = TreeFolder.find_by_name(@questionnaire.display_type)
       parent = FolderNode.find_by_node_object_id(pFolder.id)
       if QuestionnaireNode.find_by_parent_id_and_node_object_id(parent.id,@questionnaire.id) == nil
