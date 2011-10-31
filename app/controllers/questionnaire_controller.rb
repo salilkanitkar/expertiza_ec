@@ -80,6 +80,9 @@ class QuestionnaireController < ApplicationController
     @questionnaire = Questionnaire.find(params[:id])
     redirect_to :action => 'list' if @questionnaire == nil
 
+    if params['ecWeightage']
+      @ec_weightage = params['ecWeightage']
+    end
     if params['save']
       @questionnaire.update_attributes(params[:questionnaire])
       save_questionnaire  
@@ -195,6 +198,11 @@ class QuestionnaireController < ApplicationController
           s = Section.new
           s.questionnaire_id = @questionnaire.id
           s.is_extra_credit=true
+          if !@ec_weightage.nil?
+           s.extra_credit_weightage=@ec_weightage
+          else
+            s.extra_credit_weightage=10
+          end
           s.save!
         end
       end

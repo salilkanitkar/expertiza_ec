@@ -12,15 +12,15 @@ class Score < ActiveRecord::Base
       scores[:min] = 999999999
       total_score = 0
       assessments.each {
-        | assessment | 
-        curr_score = get_total_score(assessment, questions)       
+        | assessment |
+        curr_score = get_total_score(assessment, questions)
         if curr_score > scores[:max]
           scores[:max] = curr_score
         end
         if curr_score < scores[:min]
           scores[:min] = curr_score
-        end        
-        total_score += curr_score       
+        end
+        total_score += curr_score
       }
       scores[:avg] = total_score.to_f / assessments.length.to_f
     else 
@@ -43,9 +43,30 @@ class Score < ActiveRecord::Base
       item = Score.find_by_response_id_and_question_id(response.id, question.id)
       if item != nil and question.section == 0
         weighted_score += item.score * question.weight
-      end      
-      sum_of_weights += question.weight
+        sum_of_weights += question.weight
+      end
     }
-    return (weighted_score.to_f / (sum_of_weights.to_f * questions.first.questionnaire.max_question_score.to_f)) * 100   
+    orig_score = (weighted_score.to_f / (sum_of_weights.to_f * questions.first.questionnaire.max_question_score.to_f)) * 100
+
+    weighted_score = 0
+    sum_of_weights = 0
+    @last_question = nil
+    questions.each{
+      | question |
+      item = Score.find_by_response_id_and_question_id(response.id, question.id)
+      if item != nil and question.section != 0
+        weighted_score += item.score * question.weight
+        sum_of_weights += question.weight
+      end
+      @last_question = question
+    }
+
+    if !@last_question.nil?
+      @ec_limit = Section.find_by_questionnaire_id(@last_question.questionnaire_id)
+    end
+
+    ec_score = (weighted_score.to_f / (sum_of_weights.to_f * questions.first.questionnaire.max_question_score.to_f)) * @ec_limit.extra_credit_weightage
+    return (orig_score+ec_score)
+
   end
 end
