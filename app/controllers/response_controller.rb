@@ -37,7 +37,7 @@ class ResponseController < ApplicationController
     }
     #**********************
     # Check whether this is Jen's assgt. & if so, use her rubric
-    if (@assignment.instructor_id == User.find_by_name("jkidd").id) && @title == "Review"
+    if (@assignment.instructor_id == User.find_by_name("harry").id) && @title == "Review"
       if @assignment.id < 469
          @next_action = "custom_update"
          render :action => 'custom_response'
@@ -136,7 +136,7 @@ class ResponseController < ApplicationController
     get_content  
     #**********************
     # Check whether this is Jen's assgt. & if so, use her rubric
-    if (@assignment.instructor_id == User.find_by_name("jkidd").id) && @title == "Review"
+    if (@assignment.instructor_id == User.find_by_name("harry").id) && @title == "Review"
       if @assignment.id < 469
          @next_action = "custom_create"
          render :action => 'custom_response'
@@ -233,7 +233,13 @@ class ResponseController < ApplicationController
     @questionnaire = @map.questionnaire
     @questions = @questionnaire.questions
     @min = @questionnaire.min_question_score
-    @max = @questionnaire.max_question_score     
+    @max = @questionnaire.max_question_score
+    @ec_questions = []
+    for i in @questions do
+      if i.section != 0
+        @ec_questions << i
+      end
+    end
   end
   
   def redirect_when_disallowed(response)

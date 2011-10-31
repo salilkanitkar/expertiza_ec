@@ -36,14 +36,14 @@ function deleteQuestions(section_val){
             try {
             var table = document.getElementById("ec_questions_table");
             var rowCount = table.rows.length;
-            alert(rowCount);
+            //alert(rowCount);
             for(var i=0; i<rowCount; i++) {
                 var row = table.rows[i];
                 var chkbox = row.cells[0].childNodes[0];
-                alert(chkbox.id);
+                //alert(chkbox.id);
 
                 if(chkbox.type == "checkbox" && chkbox.checked) {
-                    alert("Row : " + i);
+                    //alert("Row : " + i);
                     table.deleteRow(i);
                     rowCount--;
                     i--;

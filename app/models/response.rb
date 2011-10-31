@@ -30,7 +30,7 @@ class Response < ActiveRecord::Base
     code += '<div id="review_'+str+'" style=""><BR/><BR/>'
     
     # Test for whether Jen's custom rubric needs to be used
-    if ((self.map.assignment.instructor_id == User.find_by_name("jkidd").id) && (self.map.type.to_s != 'FeedbackResponseMap'))
+    if ((self.map.assignment.instructor_id == User.find_by_name("harry").id) && (self.map.type.to_s != 'FeedbackResponseMap'))
       if self.map.assignment.id < 469
         return custom_display_as_html(code, file_url) + "</div>"
       else
@@ -41,15 +41,29 @@ class Response < ActiveRecord::Base
     # End of custom code
 
     count = 0
+    ec_code = "<h2><b>Extra Credit Questions</b></h2><br />"
+    ec_count = 0
+
     self.scores.each{
       | reviewScore |
-      count += 1
-      code += '<big><b>Question '+count.to_s+":</b> <I>"+Question.find_by_id(reviewScore.question_id).txt+"</I></big><BR/><BR/>"
-      code += '<TABLE CELLPADDING="5"><TR><TD valign="top"><B>Score:</B></TD><TD><FONT style="BACKGROUND-COLOR:gold">'+reviewScore.score.to_s+"</FONT> out of <B>"+Question.find_by_id(reviewScore.question_id).questionnaire.max_question_score.to_s+"</B></TD></TR>"
-      if reviewScore.comments != nil
-        code += '<TR><TD valign="top"><B>Response:</B></TD><TD>' + reviewScore.comments.gsub("<","&lt;").gsub(">","&gt;").gsub(/\n/,'<BR/>')
+      temp = Question.find_by_id(reviewScore.question_id)
+      if temp.section == 0
+        count += 1
+        code += '<big><b>Question '+count.to_s+":</b> <I>"+Question.find_by_id(reviewScore.question_id).txt+"</I></big><BR/><BR/>"
+        code += '<TABLE CELLPADDING="5"><TR><TD valign="top"><B>Score:</B></TD><TD><FONT style="BACKGROUND-COLOR:gold">'+reviewScore.score.to_s+"</FONT> out of <B>"+Question.find_by_id(reviewScore.question_id).questionnaire.max_question_score.to_s+"</B></TD></TR>"
+        if reviewScore.comments != nil
+          code += '<TR><TD valign="top"><B>Response:</B></TD><TD>' + reviewScore.comments.gsub("<","&lt;").gsub(">","&gt;").gsub(/\n/,'<BR/>')
+        end
+        code += '</TD></TR></TABLE><BR/>'
+      else
+        ec_count += 1
+        ec_code += '<big><b>Question '+ec_count.to_s+":</b> <I>"+Question.find_by_id(reviewScore.question_id).txt+"</I></big><BR/><BR/>"
+        ec_code += '<TABLE CELLPADDING="5"><TR><TD valign="top"><B>Score:</B></TD><TD><FONT style="BACKGROUND-COLOR:gold">'+reviewScore.score.to_s+"</FONT> out of <B>"+Question.find_by_id(reviewScore.question_id).questionnaire.max_question_score.to_s+"</B></TD></TR>"
+        if reviewScore.comments != nil
+          ec_code += '<TR><TD valign="top"><B>Response:</B></TD><TD>' + reviewScore.comments.gsub("<","&lt;").gsub(">","&gt;").gsub(/\n/,'<BR/>')
+        end
+        ec_code += '</TD></TR></TABLE><BR/>'
       end
-      code += '</TD></TR></TABLE><BR/>'
     }           
     
     if self.additional_comment != nil
@@ -57,6 +71,7 @@ class Response < ActiveRecord::Base
     else
       comment = ''
     end
+    code += ec_code
     code += "<B>Additional Comment:</B><BR/>"+comment+"</div>"
     return code
   end  

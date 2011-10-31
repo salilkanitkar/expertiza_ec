@@ -243,10 +243,25 @@ class QuestionnaireController < ApplicationController
       end
     end
   end
-  
+
+  def delete_sections(questionnaire_id)
+    glist1 = Question.find_all_by_questionnaire_id(questionnaire_id)
+    temp = 0
+    glist2 = Question.find_all_by_questionnaire_id_and_section(questionnaire_id, temp)
+    if glist1.length == glist2.length
+       temp = Section.find_all_by_questionnaire_id(questionnaire_id)
+       if !temp.blank?
+         for i in temp do
+           i.delete
+         end
+       end
+    end
+  end
+
   # Handles questions whose wording changed as a result of the edit    
   def save_questions(questionnaire_id)
     delete_questions questionnaire_id
+    delete_sections questionnaire_id
     save_new_questions questionnaire_id
     
     if params[:question]
