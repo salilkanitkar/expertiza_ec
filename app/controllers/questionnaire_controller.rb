@@ -76,6 +76,9 @@ class QuestionnaireController < ApplicationController
   
   # Edit a questionnaire
   def edit
+    @weightage = Section.find_by_questionnaire_id(params[:id])
+    save_weightage params[:id]
+
     begin
     @questionnaire = Questionnaire.find(params[:id])
     redirect_to :action => 'list' if @questionnaire == nil
@@ -211,7 +214,8 @@ class QuestionnaireController < ApplicationController
       parent = FolderNode.find_by_node_object_id(pFolder.id)
       if QuestionnaireNode.find_by_parent_id_and_node_object_id(parent.id,@questionnaire.id) == nil
         QuestionnaireNode.create(:parent_id => parent.id, :node_object_id => @questionnaire.id)
-      end      
+      end
+
     rescue
       flash[:error] = $!
     end
@@ -291,6 +295,13 @@ class QuestionnaireController < ApplicationController
   def get_extra_credit_questions()
     @ec_questions = Question.find(:all, :conditions => "questionnaire_id = " + params[:id].to_s + " and section = 1")
     # @questionnaire.ec_questions = ec_questions
+  end
+
+  def save_weightage id
+    w = Section.find_by_questionnaire_id(id)
+    w.extra_credit_weightage = params[:section][:extra_credit_weightage]
+    w.save!
+    @weightage = w
   end
 
 end

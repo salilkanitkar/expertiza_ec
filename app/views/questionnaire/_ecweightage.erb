@@ -1,0 +1,9 @@
+<% form_for @weightage, :controller => :questionnaire, :action =>'edit' do |f| %>
+  <div class="field">
+<%= f.label :extra_credit_weightage %><br />
+<%= f.text_field :extra_credit_weightage %>
+  </div>
+  <div class="actions">
+<%= f.submit "Save Weightage" %>
+  </div>
+<% end %>

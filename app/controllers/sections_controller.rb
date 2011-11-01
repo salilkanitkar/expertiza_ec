@@ -35,6 +35,11 @@ class SectionsController < ApplicationController
   # GET /sections/1/edit
   def edit
     @section = Section.find(params[:id])
+    @section.save!
+  end
+
+  def save_weightage
+   @weightage.save!
   end
 
   # POST /sections
