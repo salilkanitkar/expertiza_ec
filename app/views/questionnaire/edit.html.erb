@@ -7,8 +7,11 @@
 
     <input style="margin-left:36em" type="submit" name="view_advice" value="View advice"/>	
 
-    <%= render :partial => 'extra_credit_questions' %>
 
+    <%= render :partial => 'extra_credit_questions' %>
+        Weightage for Extra Credit Section:<%= text_field 'section', 'extra_credit_weightage', :value => @weightage.extra_credit_weightage %>
+
+    <br/><br/>
     <%= submit_tag "Save #{@questionnaire.display_type.downcase}", :name=>"save", :ec => "1" %>
 
   	<h4>Import/Export (from/to CSV format)</h4>

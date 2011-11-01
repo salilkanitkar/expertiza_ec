@@ -76,8 +76,7 @@ class QuestionnaireController < ApplicationController
   
   # Edit a questionnaire
   def edit
-    @weightage = Section.find_by_questionnaire_id(params[:id])
-    save_weightage params[:id]
+
 
     begin
     @questionnaire = Questionnaire.find(params[:id])
@@ -124,6 +123,8 @@ class QuestionnaireController < ApplicationController
     end
 
     get_extra_credit_questions # This should be here.
+    @weightage = Section.find_by_questionnaire_id(params[:id])
+    save_weightage params[:id]
   end
     
   # Define a new questionnaire
@@ -299,9 +300,18 @@ class QuestionnaireController < ApplicationController
 
   def save_weightage id
     w = Section.find_by_questionnaire_id(id)
-    w.extra_credit_weightage = params[:section][:extra_credit_weightage]
-    w.save!
-    @weightage = w
+    if !w.nil?
+      if !params[:section].nil?
+        if !params[:section][:extra_credit_weightage].nil?
+          w.extra_credit_weightage = params[:section][:extra_credit_weightage]
+          w.save!
+        end
+      end
+      @weightage = w
+    else
+      @weightage = Section.new
+      @weightage.extra_credit_weightage=0
+    end
   end
 
 end
