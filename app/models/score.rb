@@ -61,11 +61,14 @@ class Score < ActiveRecord::Base
       @last_question = question
     }
 
+    ec_score = 0
     if !@last_question.nil?
       @ec_limit = Section.find_by_questionnaire_id(@last_question.questionnaire_id)
+      if !@ec_limit.nil?
+        ec_score = (weighted_score.to_f / (sum_of_weights.to_f * questions.first.questionnaire.max_question_score.to_f)) * @ec_limit.extra_credit_weightage
+      end
     end
 
-    ec_score = (weighted_score.to_f / (sum_of_weights.to_f * questions.first.questionnaire.max_question_score.to_f)) * @ec_limit.extra_credit_weightage
     return (orig_score+ec_score)
 
   end

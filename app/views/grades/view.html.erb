@@ -15,3 +15,9 @@
 </TABLE>
 <a href="javascript:window.history.back()">Back</a>
 
+<% if @assignment.team_assignment && @scores[:teams].length > 0 %>
+    <%= link_to "Export-Grades", :action => 'export', :scores => @scores %>
+<% elsif !@assignment.team_assignment && @scores[:participants].length > 0 %>
+    <%= link_to "Export-Grades", :action => 'export', :scores => @scores %>
+<% end %>
+

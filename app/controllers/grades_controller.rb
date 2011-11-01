@@ -2,6 +2,24 @@ class GradesController < ApplicationController
   helper :file
   helper :submitted_content
 
+  def export
+
+
+
+    csv_data = GradesHelper::create_grade_csv params[:scores]
+    if !csv_data.blank?
+      send_data csv_data,
+        :type => 'text/csv; charset=iso-8859-1; header=present',
+        :disposition => "attachment; filename=output.csv"
+    else
+      csv_data = "no data"
+      send_data csv_data,
+        :type => 'text/csv; charset=iso-8859-1; header=present',
+        :disposition => "attachment; filename=output.csv"
+    end
+
+  end
+
   #the view grading report provides the instructor with an overall view of all the grades for
   #an assignment. It lists all participants of an assignment and all the reviews they recieved.
   #It also gives a final score which is an average of all the reviews and greatest difference

@@ -61,6 +61,8 @@ function addQuestions(section_val){
 	    numQuestionsToAdd = parseInt(document.getElementById("numQuestionsToAdd").value);
     }else{
         numQuestionsToAdd = parseInt(document.getElementById("ec_numQuestionsToAdd").value);
+        table = document.getElementById("ec_questions_table");
+        table.deleteRow(2);
     }
 	for(i=0; i<numQuestionsToAdd; i++){
 		addQuestion(section_val);
@@ -73,7 +75,6 @@ function addQuestion(section_val){
     }
     else {
         table = document.getElementById("ec_questions_table");
-        table.deleteRow(table.rows.length-1);
     }
 
 	var row = table.insertRow(-1);
