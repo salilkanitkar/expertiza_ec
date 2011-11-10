@@ -1,0 +1,43 @@
+E320: Extra-Credit Sectiopn and Export Grades
+
+Project Members:
+-----------------
+Salil Kanitkar : sskanitk
+Ameya Gholkar  : argholka
+Subashini SoundaraRajan : ssounda2
+
+
+The Aim of this OSS project was to add two specific functionalities which are not currently present
+in Expertiza.
+
+* Issue 1
+----------
+In the recent assignment there was a part which was completely regarded as extra-credit and
+thus should not have been counted towards the total 100% of the Review Grade. However, due
+to missing functionality to handle this issue, most of the students ended up with less than 100%
+grades only due to comparatively lesser points in the Extra-Credit question. Thus, our aim here was
+to introduce a functionality that can handle such situations.
+
+What we have done
+-------------------
+We have introduced concept of sections into Expertiza. Now, any admin can easily add any number
+of extra-credit questions into any new questionnaire that he makes and specify the weightage he
+wants to give to the questions (i.e. 0 雾务 100%). By default, no new questionnaire has extra credit
+questions. Furthermore, when an extra-credit question is introduced the default weightage of the
+Extra-credit is set to 10% which can be edited.
+We have added a table sections and a field section in the questionnaire table which effectively acts
+as the foreign key for the sections table. The 西熙section伍西 table also consists of fields is_extra_credit
+which is added for ensuring that multiple sections can be added and a field extra_credit_weightage
+which is the value in percentage which specifies the weightage for that section.
+
+* Issue 2
+----------
+In the current version of Expertiza, there is no functionality for exporting grades of a particular
+assignment in any kind of file. Our aim here was to introduce such functionality.
+
+What we have done
+------------------
+We have written functions in the grade_controller and grade_helper which provide the functionality
+of exporting grades as CSV (Comma Separated Values) file. Thus, now for any assignment the admin
+can click on the link to View all scores for all participants or teams 雾务 and he shall see an Export-Grades link 
+below the table to export the table in the view as a CSV file.
